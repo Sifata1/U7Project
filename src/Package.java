@@ -6,6 +6,7 @@ public class Package {
     private double width;
     private double length;
     private double height;
+    private double weight;
 
     public Package(double width, double length, double height) {
         this.width = width;
@@ -61,7 +62,6 @@ public class Package {
         this.weight = weight;
     }
 
-    private double weight;
 
 
 }
